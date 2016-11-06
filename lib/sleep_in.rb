@@ -1,9 +1,7 @@
 class Time
 
-  define_method(:sleep_in) do
-
+  def sleep_in
     date = self
-
     if date.saturday?() == true || date.sunday?() == true
       return "Go ahead and sleep in!"
     else
